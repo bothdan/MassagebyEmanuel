@@ -16,7 +16,6 @@ import {
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-
 const api_url = 'http://localhost:3001'
 
 class Info extends Component {
