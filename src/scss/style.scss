@@ -1,0 +1,41 @@
+// If you want to override variables do it here
+@import "variables";
+
+// Import styles
+@import "~@coreui/coreui/scss/coreui.scss";
+
+// Temp fix for reactstrap
+@import '~@coreui/coreui/scss/_dropdown-menu-right.scss';
+
+// If you want to add something do it here
+@import "custom";
+
+// ie fixes
+@import "ie-fix";
+
+body {
+    _background-color: #282e38;
+}
+
+.sidebar {
+    color: #fff;
+    background: #282e38;
+}
+.sidebar .nav-link.active {
+    color: #fff;
+    background: #3d4655;
+}
+
+.sidebar .nav-link {
+    color: #9097a7;
+    background: transparent;
+}
+
+.card {
+    _background-color: #323a46;
+    border: 1px solid #c8ced3;
+    border-radius: 2px;
+}
+.table {
+    _color: #adb5bd;
+}
